@@ -1,1 +1,72 @@
 // Use the gear_dropdown.png screenshot as a style guide
+#gear-dropdown-btn {
+  position: relative;
+}
+
+#gear-dropdown {
+  position: absolute;
+  top: 33px;
+  right: 9px;
+  background: white;
+  width: 270px;
+  border: 1px solid $light-gray;
+  font-family: $sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  z-index: 1;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  // -webkit-box-shadow: -3px 3px 14px -1px rgba(214,210,214,0.82);
+  // -moz-box-shadow: -3px 3px 14px -1px rgba(214,210,214,0.82);
+  // box-shadow: -3px 3px 14px -1px rgba(214,210,214,0.82);
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+  padding: 5px;
+
+  span {
+    font-size: 14px;
+  }
+
+  span {
+    padding: 13px;
+  }
+
+  li {
+    font-weight: 400;
+    padding: 3px;
+  }
+
+  span, .editions > li {
+    color: $gray;
+    width: 100px;
+  }
+
+  .help > li {
+    color: #1cbaff;
+    padding: 0 3px;
+  }
+
+  .editions a:hover {
+    background: $lightest-gray;
+    width: 230px;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+
+  li > .editions {
+    border-bottom: 1px solid $light-gray;
+  }
+
+  li:last-of-type a {
+    text-transform: capitalize;
+  }
+
+  a {
+    width: 100px;
+    display: block;
+    padding: 10px;
+  }
+
+}

@@ -17,6 +17,10 @@
 	border-top-right-radius: 3px;
 }
 
+.language-nav li:first-of-type {
+	font-weight: 700;
+}
+
 .language-nav a {
 	margin: 0 5px;
 	text-transform: uppercase;
@@ -47,6 +51,10 @@
 	border-right: 1px solid $light-gray;
 }
 
+.masthead-links li:last-of-type {
+	border-right: none;
+}
+
 .masthead-links button {
 	background: none;
 	padding: 0px;
@@ -60,15 +68,16 @@
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
-}
-
-.masthead-links i {
-	margin-right: 5px;
+	font-family: $sans-serif;
 }
 
 .masthead-links strong {
 	color: green;
+}
+
+.masthead-links a {
+	padding-left: 5px;
 }

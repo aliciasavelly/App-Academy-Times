@@ -1,0 +1,28 @@
+.sections-nav {
+  border-bottom: 1px solid $light-gray;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    font-family: $sans-serif;
+  }
+
+  li {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  li:hover {
+    background: $lightest-gray;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+  }
+
+  li:last-of-type {
+    text-transform: uppercase;
+  }
+
+  li:last-of-type:hover {
+    background: white;
+  }
+}
